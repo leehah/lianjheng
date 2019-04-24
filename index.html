@@ -1,10 +1,14 @@
+<?php
+	$db=new mysqli('lianggheng.nctu.me/phpmyadmin/sql.php','root','root','website');
+	?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>聯正搜尋系統<title/>
+        <title>lianggheng</title>
         <style>
-        @import url(http://fonts.googleapis.com/css?family=Cabin:400);
+        @import url(http://fonts.googleapis.com/css?family=Cabin:700);
 
 .webdesigntuts-workshop {
 background: #151515;
@@ -255,10 +259,9 @@ box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 
     </head>
     <body>
         <section class="webdesigntuts-workshop">
-          <form action=""" method="get">
-              <input type="search" placeholder="search...">
+          <form action="test.php"" method="get">
+              <input type="search" placeholder="請輸入搜尋聯徵姓名">
 
-            </div>
         </form>
     </body>
 </html>
